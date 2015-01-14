@@ -1,0 +1,6 @@
+---
+# Override the resources
+resources:
+  systemproperty:
+    'test':
+      value: 'Test value'
