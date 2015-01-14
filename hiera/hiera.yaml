@@ -1,9 +1,11 @@
 ---
 :backends:
   - yaml
+  - module_data
 :yaml:
   :datadir: hiera/hieradata
 :hierarchy:
   - "nodes/%{::hostname}"
   - "os/%{::operatingsystem}"
   - "common"
+:merge_behaviour: deeper

@@ -1,6 +1,6 @@
 ---
 # Override the resources
-resources:
+dim_resources:
   systemproperty:
     'test':
       value: 'Test value'
